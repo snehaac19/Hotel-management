@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCS LODGE</title>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('bed.jpeg'); /* Replace 'background.jpg' with your image path */
+  background-size: cover;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.topnav {
+  float: right;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+
+.center {
+  padding: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="topnav">
+      <a href=""onclick="openss()">Login</a>
+      <a href=""onclick="opens()">Register</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="center">
+      <h1>MCS LODGE</h1>
+      <p>enjoy the happy and luxury stay!</p>
+    </div>
+  </div>
+  <script>
+    function opens() {
+    window.open("file:///C:/xampp/htdocs/Hotel_Booking_Management_System/register.html");
+}
+function openss() {
+    window.open("file:///C:/xampp/htdocs/Hotel_Booking_Management_System/login.html");
+}
+
+</script>
+  
+</body>
+</html>
